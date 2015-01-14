@@ -1,0 +1,8 @@
+{
+  "name": "BookMonkey",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-ng-scenario": "^0.1.0"
+  }
+}

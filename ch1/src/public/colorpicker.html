@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html ng-app="colorPickerApp">
+<head>
+  <meta charset="utf-8">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-controller="MainCtrl">
+	<color-picker init-r="255" init-g="0" init-b="0" init-a="1.0" on-change="handleColorChange(r,g,b,a)"></color-picker > 
+	<color-picker init-r="0" init-g="255" init-b="0" init-a="1.0"></color-picker> 	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+	<script src="script/myapp.js"></script>
+	<script src="script/color-picker.js"></script>
+	<script src="script/controllers/mainCtrl.js"></script>
+</body>
+</html>
